@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009851B51758395F0056C8DB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009851B41758395F0056C8DB /* CoreText.framework */; };
 		009933BD1756EC4900AEFA01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009933BC1756EC4900AEFA01 /* UIKit.framework */; };
 		009933BF1756EC4900AEFA01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009933BE1756EC4900AEFA01 /* Foundation.framework */; };
 		009933C11756EC4900AEFA01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009933C01756EC4900AEFA01 /* CoreGraphics.framework */; };
@@ -18,9 +19,12 @@
 		009933D31756EC4900AEFA01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 009933D21756EC4900AEFA01 /* Default-568h@2x.png */; };
 		009933D61756EC4900AEFA01 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009933D41756EC4900AEFA01 /* MainStoryboard.storyboard */; };
 		009933D91756EC4900AEFA01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009933D81756EC4900AEFA01 /* ViewController.m */; };
+		00E264511757205B00918592 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E264501757205B00918592 /* QuartzCore.framework */; };
+		0F2D804B176AF53E001A0EE0 /* Carolingia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F2D804A176AF53E001A0EE0 /* Carolingia.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		009851B41758395F0056C8DB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		009933B91756EC4900AEFA01 /* demo_bitmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo_bitmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009933BC1756EC4900AEFA01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		009933BE1756EC4900AEFA01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +41,8 @@
 		009933D51756EC4900AEFA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		009933D71756EC4900AEFA01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		009933D81756EC4900AEFA01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00E264501757205B00918592 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F2D804A176AF53E001A0EE0 /* Carolingia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Carolingia.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009851B51758395F0056C8DB /* CoreText.framework in Frameworks */,
+				00E264511757205B00918592 /* QuartzCore.framework in Frameworks */,
 				009933BD1756EC4900AEFA01 /* UIKit.framework in Frameworks */,
 				009933BF1756EC4900AEFA01 /* Foundation.framework in Frameworks */,
 				009933C11756EC4900AEFA01 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +81,8 @@
 		009933BB1756EC4900AEFA01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00E264501757205B00918592 /* QuartzCore.framework */,
+				009851B41758395F0056C8DB /* CoreText.framework */,
 				009933BC1756EC4900AEFA01 /* UIKit.framework */,
 				009933BE1756EC4900AEFA01 /* Foundation.framework */,
 				009933C01756EC4900AEFA01 /* CoreGraphics.framework */,
@@ -83,6 +93,7 @@
 		009933C21756EC4900AEFA01 /* demo_bitmap */ = {
 			isa = PBXGroup;
 			children = (
+				0F2D804A176AF53E001A0EE0 /* Carolingia.ttf */,
 				009933CB1756EC4900AEFA01 /* AppDelegate.h */,
 				009933CC1756EC4900AEFA01 /* AppDelegate.m */,
 				009933D41756EC4900AEFA01 /* MainStoryboard.storyboard */,
@@ -163,6 +174,7 @@
 				009933D11756EC4900AEFA01 /* Default@2x.png in Resources */,
 				009933D31756EC4900AEFA01 /* Default-568h@2x.png in Resources */,
 				009933D61756EC4900AEFA01 /* MainStoryboard.storyboard in Resources */,
+				0F2D804B176AF53E001A0EE0 /* Carolingia.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +225,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -225,7 +237,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -248,7 +260,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,6 +273,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo_bitmap/demo_bitmap-Prefix.pch";
 				INFOPLIST_FILE = "demo_bitmap/demo_bitmap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo_bitmap/demo_bitmap-Prefix.pch";
 				INFOPLIST_FILE = "demo_bitmap/demo_bitmap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +310,7 @@
 				009933DE1756EC4900AEFA01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
